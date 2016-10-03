@@ -3,7 +3,7 @@
  *
  * Copyright 2014-2016 Damien "Mistic" Sorel (http://www.strangeplanet.fr)
  * Licensed under MIT (http://opensource.org/licenses/MIT)
- * 
+ *
  * Based on jQuery.extend by jQuery Foundation, Inc. and other contributors
  */
 
@@ -11,7 +11,7 @@
 
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(['jquery'], factory);
+        define('jquery-extendext', ['jquery'], factory);
     }
     else if (typeof module === 'object' && module.exports) {
         module.exports = factory(require('jquery'));
